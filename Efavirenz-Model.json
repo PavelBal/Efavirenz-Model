@@ -33,7 +33,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -48,7 +48,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         }
       ],
@@ -696,7 +696,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 2.9720579005E-05,
+              "Value": 2.9720579005e-05,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -2639,7 +2639,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -2650,6 +2650,88 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 150.0,
+              "Max": 2641.624,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mouly 2002, 200mg MD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Mouly 2002, 200mg MD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Mouly 2002 - 200 mg, Day 1 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mouly 2002 - 200 mg, Day 1 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Mouly 2002 - 200 mg, Day 1 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mouly 2002 - 200 mg, Day 10 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mouly 2002 - 200 mg, Day 10 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Mouly 2002 - 200 mg, Day 10 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mouly 2002, 200mg MD",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nMouly 2002, 200mg MD\n2020-03-19 13:36"
         }
       ]
     },
@@ -2837,7 +2919,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -2848,6 +2930,88 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 200.0,
+              "Max": 3388.104,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mouly 2002, 400mg MD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Mouly 2002, 400mg MD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Mouly 2002 - 400 mg, Day 1 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mouly 2002 - 400 mg, Day 1 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Mouly 2002 - 400 mg, Day 1 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FFA500",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mouly 2002, 400mg MD",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nMouly 2002, 400mg MD\n2020-03-19 13:37"
         }
       ]
     },
@@ -2977,7 +3141,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -2988,6 +3152,77 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 30.0,
+              "Max": 3630.351,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Xu 2013, 600mg SD EM-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Xu 2013, 600mg SD EM|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Xu 2013 - CYP2B6*1/*1 genotype - Efavirenz - PO - 600 mg - Plasma - indiv.-Efavirenz-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Xu 2013 - CYP2B6*1/*1 genotype - Efavirenz - PO - 600 mg - Plasma - indiv.|Time",
+              "Y": "Xu 2013 - CYP2B6*1/*1 genotype - Efavirenz - PO - 600 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|Individual",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Xu 2013, 600mg SD EM",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nXu 2013, 600mg SD EM\n2020-03-19 11:55"
         }
       ]
     },
@@ -3115,7 +3350,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -3126,6 +3361,79 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 73.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 30.0,
+              "Max": 2414.077,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Xu 2013, 600mg SD IM-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Xu 2013, 600mg SD IM|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Xu 2013 - CYP2B6*1/*6 genotype - Efavirenz - PO - 600 mg - Plasma - indiv.-Efavirenz-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Xu 2013 - CYP2B6*1/*6 genotype - Efavirenz - PO - 600 mg - Plasma - indiv.|Time",
+              "Y": "Xu 2013 - CYP2B6*1/*6 genotype - Efavirenz - PO - 600 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|Individual",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Xu 2013, 600mg SD IM",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nXu 2013, 600mg SD IM\n2020-03-19 11:55"
         }
       ]
     },
@@ -3253,7 +3561,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -3264,6 +3572,79 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 72.05334,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 100.0,
+              "Max": 2581.355,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Xu 2013, 600mg SD PM-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Xu 2013, 600mg SD PM|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Xu 2013 - CYP2B6*6/*6 genotype - Efavirenz - PO - 600 mg - Plasma - indiv.-Efavirenz-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Xu 2013 - CYP2B6*6/*6 genotype - Efavirenz - PO - 600 mg - Plasma - indiv.|Time",
+              "Y": "Xu 2013 - CYP2B6*6/*6 genotype - Efavirenz - PO - 600 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|Individual",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Xu 2013, 600mg SD PM",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nXu 2013, 600mg SD PM\n2020-03-19 11:56"
         }
       ]
     },
@@ -3391,7 +3772,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -3402,6 +3783,79 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 72.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 400.0,
+              "Max": 2621.639,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Ogburn 2010, 600mg SD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Ogburn 2010, 600mg SD|Time ",
+              "Y": "Ogburn 2010, 600mg SD|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|Concentration ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Ogburn 2010, 600mg SD",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nOgburn 2010, 600mg SD\n2020-03-19 11:53"
         }
       ]
     },
@@ -3641,7 +4095,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -3652,6 +4106,148 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 312.0,
+              "Max": 338.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 400.0,
+              "Max": 5176.087,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dooley 2012, 600mg MD EM-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Dooley 2012, 600mg MD EM|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dooley 2012 - Extensive metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Dooley 2012 - Extensive metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)|Time",
+              "Y": "Dooley 2012 - Extensive metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Dooley 2012, 600mg MD EM",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nDooley 2012, 600mg MD EM\n2020-03-19 12:14"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 400.0,
+              "Max": 5176.087,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dooley 2012, 600mg MD EM-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Dooley 2012, 600mg MD EM|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dooley 2012 - Extensive metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Dooley 2012 - Extensive metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)|Time",
+              "Y": "Dooley 2012 - Extensive metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Dooley 2012, 600mg MD EM",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nDooley 2012, 600mg MD EM\n2020-03-19 12:14"
         }
       ]
     },
@@ -3891,7 +4487,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -3902,6 +4498,79 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 306.8324,
+              "Max": 342.1855,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 400.0,
+              "Max": 6914.27,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dooley 2012, 600mg MD IM-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Dooley 2012, 600mg MD IM|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dooley 2012 - Intermediate metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Dooley 2012 - Intermediate metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)|Time",
+              "Y": "Dooley 2012 - Intermediate metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Dooley 2012, 600mg MD IM",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nDooley 2012, 600mg MD IM\n2020-03-19 13:20"
         }
       ]
     },
@@ -4141,7 +4810,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -4152,6 +4821,79 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 308.9754,
+              "Max": 338.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 400.0,
+              "Max": 18087.13,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dooley 2012, 600mg MD PM-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Dooley 2012, 600mg MD PM|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dooley 2012 - Slow metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Dooley 2012 - Slow metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)|Time",
+              "Y": "Dooley 2012 - Slow metabolizer - Efavirenz - PO - 600 mg - Plasma - agg. (n=34)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Dooley 2012, 600mg MD PM",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nDooley 2012, 600mg MD PM\n2020-03-19 13:21"
         }
       ]
     },
@@ -4367,7 +5109,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -4378,6 +5120,79 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 213.0959,
+              "Max": 243.6457,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 800.0,
+              "Max": 4707.623,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Garg 2013, 600mg MD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Garg 2013, 600mg MD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Garg 2013 - Efavirenz without telaprevir - Efavirenz - PO - 600 mg - Plasma - agg. (n=28)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Garg 2013 - Efavirenz without telaprevir - Efavirenz - PO - 600 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Garg 2013 - Efavirenz without telaprevir - Efavirenz - PO - 600 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Garg 2013, 600mg MD",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nGarg 2013, 600mg MD\n2020-03-19 13:23"
         }
       ]
     },
@@ -4599,7 +5414,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -4610,6 +5425,79 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 236.0,
+              "Max": 268.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 800.0,
+              "Max": 5664.335,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Huang 2012, 600mg MD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Huang 2012, 600mg MD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Huang 2013 - EFV administration alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Huang 2013 - EFV administration alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Huang 2013 - EFV administration alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Huang 2012, 600mg MD",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nHuang 2012, 600mg MD\n2020-03-19 13:35"
         }
       ]
     },
@@ -4891,7 +5779,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -4902,6 +5790,99 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 400.0,
+              "Max": 4921.875,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Liu 2008, 400 mg PO OD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Liu 2008, 400 mg PO OD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)|Time",
+              "Y": "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Liu 2008 - Group 2, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Liu 2008 - Group 2, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Liu 2008 - Group 2, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FFA500",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Liu 2008 - Group 2, efavirenz + placebo - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Liu 2008 - Group 2, efavirenz + placebo - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Liu 2008 - Group 2, efavirenz + placebo - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Liu 2008, 400 mg PO OD",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nLiu 2008, 400 mg PO OD\n2020-03-19 12:08"
         }
       ]
     },
@@ -5117,7 +6098,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -5128,6 +6109,79 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 213.0959,
+              "Max": 243.6457,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1000.0,
+              "Max": 3845.495,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Malvestutto 2014, 600mg PO OD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Malvestutto 2014, 600mg PO OD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Malvestutto 2014 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Malvestutto 2014 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Malvestutto 2014 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Malvestutto 2014, 600mg PO OD",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nMalvestutto 2014, 600mg PO OD\n2020-03-19 11:54"
         }
       ]
     },
@@ -5283,7 +6337,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -5294,6 +6348,77 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 500.0,
+              "Max": 5651.558,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Damle 2008, 600 mg PO OD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Damle 2008, 600 mg PO OD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Damle 2008 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=16)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Damle 2008 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=16)|Time",
+              "Y": "Damle 2008 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Damle 2008, 600 mg PO OD",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz-Model\nDamle 2008, 600 mg PO OD\n2021-09-09 19:07"
         }
       ]
     },
@@ -5796,7 +6921,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -5807,6 +6932,79 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 336.0,
+              "Max": 341.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 5.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Katzenmaier 2010 - Midazolam + Efavirenz - Midazolam - PO - 3 mg - Plasma - agg. (n=12)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Katzenmaier 2010 - Midazolam + Efavirenz - Midazolam - PO - 3 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Katzenmaier 2010 - Midazolam + Efavirenz - Midazolam - PO - 3 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz-Model\nKatzenmaier 2010, Midazolam +  Efavirenz 400mg MD\n2021-09-09 19:04"
         }
       ]
     },
@@ -6148,7 +7346,80 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.1405931,
+              "Max": 12.4835,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.2094521,
+              "Max": 28.31101,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Katzenmaier 2010, Midazolam alone-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Katzenmaier 2010, Midazolam alone|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Katzenmaier 2010 - Midazolam control - Midazolam - PO - 3 mg - Plasma - agg. (n=12)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Katzenmaier 2010 - Midazolam control - Midazolam - PO - 3 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Katzenmaier 2010 - Midazolam control - Midazolam - PO - 3 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Katzenmaier 2010, Midazolam alone",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz-Model\nKatzenmaier 2010, Midazolam alone\n2021-09-09 19:02"
+        }
+      ]
     },
     {
       "Name": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
@@ -6651,7 +7922,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -6662,6 +7933,112 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.222469,
+              "Max": 29.4754,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 1965.703,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mikus 2017, Midazolam + Efavirenz 400mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Mikus 2017, Midazolam + Efavirenz 400mg SD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Mikus 2017, Midazolam + Efavirenz 400mg SD-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Mikus 2017, Midazolam + Efavirenz 400mg SD|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 10
+              }
+            },
+            {
+              "Name": "Mikus 2017 - Efavirenz + Midazolam IV day 1 - Midazolam - IV - 2 mg - Plasma - agg. (n=12)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mikus 2017 - Efavirenz + Midazolam IV day 1 - Midazolam - IV - 2 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Mikus 2017 - Efavirenz + Midazolam IV day 1 - Midazolam - IV - 2 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mikus 2017 - Efavirenz + Midazolam PO day 1 - Midazolam - PO - 4 mg - Plasma - agg. (n=12)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mikus 2017 - Efavirenz + Midazolam PO day 1 - Midazolam - PO - 4 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Mikus 2017 - Efavirenz + Midazolam PO day 1 - Midazolam - PO - 4 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mikus 2017 - Midazolam + Efavirenz - Efavirenz - PO - 400 mg - Plasma - agg. (n=12)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mikus 2017 - Midazolam + Efavirenz - Efavirenz - PO - 400 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Mikus 2017 - Midazolam + Efavirenz - Efavirenz - PO - 400 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+          "FontAndSize": {
+            "ChartWidth": 800,
+            "ChartHeight": 500,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz-Model\nMikus 2017, Midazolam + Efavirenz 400mg SD\n2021-09-09 19:05"
         }
       ]
     },
@@ -7071,7 +8448,89 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 62.91139,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mikus 2017, Midazolam alone-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Mikus 2017, Midazolam alone|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 8
+              }
+            },
+            {
+              "Name": "Mikus 2017 - Midazolam control PO - Midazolam - PO - 4 mg - Plasma - agg. (n=12)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mikus 2017 - Midazolam control PO - Midazolam - PO - 4 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Mikus 2017 - Midazolam control PO - Midazolam - PO - 4 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mikus 2017 - Midazolam control IV - Midazolam - IV - 2 mg - Plasma - agg. (n=12)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mikus 2017 - Midazolam control IV - Midazolam - IV - 2 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Mikus 2017 - Midazolam control IV - Midazolam - IV - 2 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mikus 2017, Midazolam alone",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz-Model\nMikus 2017, Midazolam alone\n2021-09-09 19:05"
+        }
+      ]
     },
     {
       "Name": "Soon 2010, 600mg MD over 28 days",
@@ -7393,7 +8852,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2B6-Ke2016",
@@ -7404,6 +8863,79 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 670.0,
+              "Max": 696.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1000.0,
+              "Max": 10000.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Soon 2010, 600mg MD over 28 days-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Soon 2010, 600mg MD over 28 days|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Soon 2010, 600mg MD over 28 days",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz\nSoon 2010, 600mg MD over 28 days\n2020-03-19 13:41"
         }
       ]
     }
@@ -7440,12 +8972,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -7465,7 +8997,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -7706,13 +9238,13 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.8762336462E-05,
+              "Value": 2.8762336462e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 9.45E-07,
+              "Value": 9.45e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -12611,8 +14143,8 @@
                 0.00063912245,
                 0.00034091418,
                 0.00014493019,
-                8.9871E-05,
-                7.4722E-05
+                8.9871e-05,
+                7.4722e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -12639,8 +14171,8 @@
             0.0010437991,
             0.00040898,
             0.0001488923,
-            2.9562741E-05,
-            2.285823E-05
+            2.9562741e-05,
+            2.285823e-05
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -13146,7 +14678,7 @@
                 0.00137834,
                 0.0012798869,
                 0.00068917,
-                9.845233E-05
+                9.845233e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -13324,7 +14856,7 @@
                 0.001575246,
                 0.0009845288,
                 0.00068917015,
-                2.38E-10
+                2.38e-10
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
