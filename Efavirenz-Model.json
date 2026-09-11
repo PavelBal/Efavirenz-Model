@@ -2512,68 +2512,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Mouly2002_200mg|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_200mg|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_200mg|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_200mg|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_200mg|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_200mg|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_200mg|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_200mg|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_200mg|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_200mg|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
       ],
@@ -2790,68 +2728,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Mouly2002_400mg|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_400mg|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_400mg|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_400mg|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_400mg|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_400mg|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_400mg|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_400mg|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_400mg|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mouly2002_400mg|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3071,14 +2947,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|600mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
         "Organism|Liver|Efavirenz|Intracellular Unbound (Liver)",
@@ -3280,14 +3148,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|600mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3493,14 +3353,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|600mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
       ],
@@ -3702,14 +3554,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|600mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3947,92 +3791,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4341,92 +4099,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
       ],
@@ -4662,92 +4334,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Dooley2012|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4987,68 +4573,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
       ],
@@ -5284,74 +4808,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Huang2012|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Huang2012|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Huang2012|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Huang2012|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Huang2012|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Huang2012|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Huang2012|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Huang2012|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Huang2012|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Huang2012|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Huang2012|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5591,122 +5047,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_17|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_18|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_19|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5976,68 +5316,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Garg2013|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
       ],
@@ -6219,62 +5497,6 @@
               }
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|600 mg OD over 9 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|600 mg OD over 9 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|600 mg OD over 9 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|600 mg OD over 9 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|600 mg OD over 9 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|600 mg OD over 9 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|600 mg OD over 9 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|600 mg OD over 9 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|600 mg OD over 9 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6499,102 +5721,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|3 mg Midazolam po day 14|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -7063,12 +6189,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|3 mg Midazolam po|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -7568,24 +6688,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|400mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mikus2017_Midazolam-DDI|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mikus2017_Midazolam-DDI|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -8155,18 +7257,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Mikus2017_Midazolam-alone|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mikus2017_Midazolam-alone|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -8614,182 +7704,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_17|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_18|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_19|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_20|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_21|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_22|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_23|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_24|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_25|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_26|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_27|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_28|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_29|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
