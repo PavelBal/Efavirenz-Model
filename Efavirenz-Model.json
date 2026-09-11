@@ -1,6 +1,7 @@
 {
   "Name": "Efavirenz-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -15523,6 +15524,5 @@
         "Mikus 2017, Midazolam alone"
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
